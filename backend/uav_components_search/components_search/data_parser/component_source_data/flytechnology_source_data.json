@@ -1,0 +1,72 @@
+{
+  "shop_name": "FlyTechnology",
+  "shop_file_name": "flytechnology",
+  "shop_logo": "https://rc-hobby.com.ua/upload/rc-hobby-2019.png",
+  "search_url": "https://flytechnology.ua/index.php?route=product/search&search=REPLACE_WITH_QUERY&limit=100",
+  "base_url": "https://flytechnology.ua",
+  "query_separator": "+",
+  "headers": {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "accept-language": "uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "max-age=0",
+    "priority": "u=0, i",
+    "sec-ch-ua": "'Chromium';v='124', 'Google Chrome';v='124', 'Not-A.Brand';v='99'",
+    "sec-ch-ua-mobile": "?1",
+    "sec-ch-ua-platform": "Android",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+  },
+  "gallery_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "us-category-content"
+    }
+  },
+  "product_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "product-layout product-list col-sm-12"
+    }
+  },
+  "name_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "us-module-title flex-grow-1"
+    },
+    "path_to_data": [],
+    "data_source": "text"
+  },
+  "price_obj": {
+    "attribute_name": "span",
+    "attrs": {
+      "class": "us-module-price-actual"
+    },
+    "path_to_data": [],
+    "data_source": "text",
+    "has_price_interval": false,
+    "extract_pattern": "([\\d\\s.]+)",
+    "separator": null,
+    "currency": "UAH"
+  },
+  "picture_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "us-module-img"
+    },
+    "path_to_data": ["img"],
+    "data_source": "src"
+  },
+  "url_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "us-module-title flex-grow-1"
+    },
+    "path_to_data": ["a"],
+    "data_source": "href"
+  },
+  "country": "Україна"
+}

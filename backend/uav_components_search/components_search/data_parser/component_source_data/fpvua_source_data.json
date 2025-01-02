@@ -1,0 +1,81 @@
+{
+  "shop_name": "FPVUA",
+  "shop_file_name": "fpvua",
+  "shop_logo": "https://rc-hobby.com.ua/upload/rc-hobby-2019.png",
+  "search_url": "https://fpvua.com/search/?search=REPLACE_WITH_QUERY&limit=45",
+  "base_url": "https://fpvua.com",
+  "query_separator": " ",
+  "headers": {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "accept-language": "uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "max-age=0",
+    "priority": "u=0, i",
+    "sec-ch-ua": "'Chromium';v='124', 'Google Chrome';v='124', 'Not-A.Brand';v='99'",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "Windows",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+  },
+  "gallery_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "catagory-wrap"
+    }
+  },
+  "product_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "single-product"
+    }
+  },
+  "name_obj": {
+    "attribute_name": "img",
+    "attrs": {
+      "class": "lazyload"
+    },
+    "path_to_data": [],
+    "data_source": "alt"
+  },
+  "price_obj": {
+    "attribute_name": "p",
+    "attrs": {
+      "class": "price"
+    },
+    "path_to_data": [],
+    "data_source": "text",
+    "has_price_interval": false,
+    "extract_pattern": "(\\d+)\\s*грн",
+    "separator": null,
+    "currency": "UAH"
+  },
+  "picture_obj": {
+    "attribute_name": "img",
+    "attrs": {
+      "class": "lazyload"
+    },
+    "path_to_data": [],
+    "data_source": "data-src"
+  },
+  "url_obj": {
+    "attribute_name": "a",
+    "attrs": {
+      "class": "img"
+    },
+    "path_to_data": [],
+    "data_source": "href"
+  },
+  "pagination_type": "next_page",
+  "next_page": {
+    "attribute_name": "a",
+    "attrs": {
+      "class": "next"
+    },
+    "path_to_data": [],
+    "data_source": "href"
+  },
+  "country": "Україна"
+}

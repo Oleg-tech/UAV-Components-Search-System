@@ -1,0 +1,81 @@
+{
+  "shop_name": "ekatalog",
+  "shop_file_name": "e-Katalog",
+  "shop_logo": "https://ek.ua/img/svg/logo.svg",
+  "search_url": "https://ek.ua/ua/ek-list.php?katalog_=695&search_=REPLACE_WITH_QUERY",
+  "base_url": "https://ek.ua",
+  "query_separator": "+",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+    "Accept-Language": "uk,ru-RU;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6"
+  },
+  "gallery_obj": {
+    "attribute_name": "form",
+    "attrs": {
+      "id": "list_form1"
+    }
+  },
+  "product_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "model-short-div list-item--offers"
+    }
+  },
+  "name_obj": {
+    "attribute_name": "td",
+    "attrs": {
+      "class": "model-short-info"
+    },
+    "path_to_data": [
+      "div",
+      "a"
+    ],
+    "data_source": "text"
+  },
+  "price_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "pr31 ib"
+    },
+    "path_to_data": [
+      "span"
+    ],
+    "data_source": "text",
+    "has_price_interval": true,
+    "extract_pattern": "(\\d+\\s*\\d+)\\s*грн.",
+    "separator": "...",
+    "currency": "UAH"
+  },
+  "picture_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "list-img"
+    },
+    "path_to_data": [
+      "img"
+    ],
+    "data_source": "src"
+  },
+  "url_obj": {
+    "attribute_name": "td",
+    "attrs": {
+      "class": "model-short-info"
+    },
+    "path_to_data": [
+      "div",
+      "a"
+    ],
+    "data_source": "onmouseover"
+  },
+  "pagination_type": "next_page",
+  "next_page": {
+    "attribute_name": "a",
+    "attrs": {
+      "class": "ib pager-next"
+    },
+    "path_to_data": [],
+    "data_source": "href",
+    "add_to_url": "https://ek.ua"
+  },
+  "country": "Україна"
+}

@@ -1,0 +1,76 @@
+{
+  "shop_name": "Robostor",
+  "shop_file_name": "robostor",
+  "shop_logo": "https://www.racedayquads.com/cdn/shop/files/NightPngclear_a6b86b91-fe0b-4348-a969-f1e98f218cab_636x250.png?v=1700266428",
+  "search_url": "https://www.robostore.com.ua/ua/katalog/search/?q=REPLACE_WITH_QUERY",
+  "base_url": "https://www.robostore.com.ua",
+  "query_separator": "+",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+  },
+  "gallery_obj": {
+    "attribute_name": "ul",
+    "attrs": {
+      "class": "catalogGrid catalog-grid catalog-grid--s catalog-grid--sidebar"
+    }
+  },
+  "product_obj": {
+    "attribute_name": "li",
+    "attrs": {
+      "class": "catalog-grid__item"
+    }
+  },
+  "name_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "catalogCard-title"
+    },
+    "path_to_data": [
+      "a"
+    ],
+    "data_source": "text"
+  },
+  "price_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "catalogCard-price"
+    },
+    "path_to_data": [],
+    "data_source": "text",
+    "has_price_interval": false,
+    "extract_pattern": "(\\d+(?:\\s\\d+)*\\.\\d+)\\s₴",
+    "currency": "UAH"
+  },
+  "picture_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "catalogCard-image-i"
+    },
+    "path_to_data": [
+      "img"
+    ],
+    "data_source": "src",
+    "add_to_url": "https://www.robostore.com.ua"
+  },
+  "url_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "catalogCard-title"
+    },
+    "path_to_data": [
+      "a"
+    ],
+    "data_source": "href",
+    "add_to_url": "https://www.robostore.com.ua"
+  },
+  "next_page": {
+    "attribute_name": "a",
+    "attrs": {
+      "id": "pager_next"
+    },
+    "path_to_data": [],
+    "data_source": "href",
+    "is_full": false
+  },
+  "country": "Україна"
+}

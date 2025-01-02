@@ -1,0 +1,67 @@
+{
+  "shop_name": "",
+  "shop_file_name": "",
+  "shop_logo": "",
+  "search_url": "https://www.source.com/query=REPLACE_WITH_QUERY",
+  "base_url": "https://www.source.com",
+  "query_separator": "+",
+  "headers": {
+    "user-agent": ""
+  },
+  "gallery_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": ""
+    }
+  },
+  "product_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "id": ""
+    }
+  },
+  "name_obj": {
+    "attribute_name": "span",
+    "attrs": {
+      "class": ""
+    },
+    "path_to_data": [],
+    "data_source": "text"
+  },
+  "price_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": ""
+    },
+    "path_to_data": [],
+    "data_source": "text"
+  },
+  "picture_obj": {
+    "attribute_name": "img",
+    "attrs": {
+      "class": ""
+    },
+    "path_to_data": [],
+    "data_source": "src",
+    "add_to_url": "https://www.source.com"
+  },
+  "url_obj": {
+    "attribute_name": "a",
+    "attrs": {
+      "class": ""
+    },
+    "path_to_data": [],
+    "data_source": "href",
+    "add_to_url": "https://www.source.com"
+  },
+  "pagination_type": "next_page",
+  "next_page": {
+    "attribute_name": "a",
+    "attrs": {
+      "class": ""
+    },
+    "path_to_data": [],
+    "data_source": "href",
+    "add_to_url": "https://www.amazon.co.uk"
+  }
+}

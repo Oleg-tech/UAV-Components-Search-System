@@ -1,0 +1,89 @@
+@keyframes flyAcross1 {
+    0% {
+        transform: translateX(-100%) rotate(0deg);
+    }
+    100% {
+        transform: translateX(200vw) rotate(360deg);
+    }
+}
+
+@keyframes flyAcross2 {
+    0% {
+        transform: translateX(-100%) rotate(0deg);
+    }
+    100% {
+        transform: translateX(200vw) rotate(360deg);
+    }
+}
+
+@keyframes flyAcross3 {
+    0% {
+        transform: translateX(-100%) rotate(0deg);
+    }
+    100% {
+        transform: translateX(200vw) rotate(360deg);
+    }
+}
+
+@keyframes flyAcross4 {
+    0% {
+        transform: translateX(-100%) rotate(0deg);
+    }
+    100% {
+        transform: translateX(200vw) rotate(360deg);
+    }
+}
+
+@keyframes flyAcross5 {
+    0% {
+        transform: translateX(-100%) rotate(0deg);
+    }
+    100% {
+        transform: translateX(200vw) rotate(360deg);
+    }
+}
+
+.fly-across-1 {
+    animation: flyAcross1 10s linear infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: auto;
+}
+
+.fly-across-2 {
+    animation: flyAcross2 10s linear infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: auto;
+}
+
+.fly-across-3 {
+    animation: flyAcross3 10s linear infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: auto;
+}
+
+.fly-across-4 {
+    animation: flyAcross4 10s linear infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: auto;
+}
+
+.fly-across-5 {
+    animation: flyAcross5 10s linear infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: auto;
+}

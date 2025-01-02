@@ -1,0 +1,73 @@
+{
+  "shop_name": "DronTech",
+  "shop_file_name": "drontech",
+  "shop_logo": "https://rc-hobby.com.ua/upload/rc-hobby-2019.png",
+  "search_url": "https://drontech.com.ua/search/?search=REPLACE_WITH_QUERY",
+  "base_url": "https://drontech.com.ua",
+  "query_separator": " ",
+  "headers": {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "accept-language": "uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "max-age=0",
+    "priority": "u=0, i",
+    "referer": "https://drontech.com.ua/search/?search=runcam",
+    "sec-ch-ua": "'Chromium';v='124', 'Google Chrome';v='124', 'Not-A.Brand';v='99'",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "Windows",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+  },
+  "gallery_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "row gy-2 g-sm-2 sc-module sc-category-products"
+    }
+  },
+  "product_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "product-layout sc-module-col product-grid col-sm-6 col-md-4 col-lg-3"
+    }
+  },
+  "name_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "sc-module-info"
+    },
+    "path_to_data": ["a"],
+    "data_source": "text"
+  },
+  "price_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "sc-module-price-box py-2 mt-auto"
+    },
+    "path_to_data": [],
+    "data_source": "text",
+    "has_price_interval": false,
+    "extract_pattern": "(\\d+\\s*\\d*,?\\d+)",
+    "separator": null,
+    "currency": "UAH"
+  },
+  "picture_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "sc-module-img position-relative"
+    },
+    "path_to_data": ["a", "img"],
+    "data_source": "src"
+  },
+  "url_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "sc-module-img position-relative"
+    },
+    "path_to_data": ["a"],
+    "data_source": "href"
+  },
+  "country": "Україна"
+}

@@ -1,0 +1,74 @@
+{
+  "shop_name": "Prom.ua",
+  "shop_file_name": "prom_ua",
+  "shop_logo": "https://images.prom.ua/5372614173_w2048_h2048_stav_desktop_h3.png?fresh=1",
+  "search_url": "https://prom.ua/ua/search?search_term=REPLACE_WITH_QUERY",
+  "base_url": "https://prom.ua",
+  "query_separator": " ",
+  "headers": {
+    "accept-language": "uk"
+  },
+  "gallery_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "MafxA Nt5uf tPYLO QdzA1 BmN-- UQxaL",
+      "data-qaid": "product_gallery"
+    }
+  },
+  "product_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "l-GwW js-productad"
+    }
+  },
+  "name_obj": {
+    "attribute_name": "span",
+    "attrs": {
+      "class": "_3Trjq htldP _7NHpZ h97_n"
+    },
+    "path_to_data": [],
+    "data_source": "text"
+  },
+  "price_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "bkjEo",
+      "data-qaid": "product_price"
+    },
+    "path_to_data": ["span"],
+    "data_source": "text",
+    "has_price_interval": false,
+    "extract_pattern": "(\\d+(?:\\s\\d+)*)",
+    "currency": "UAH"
+  },
+  "picture_obj": {
+    "attribute_name": "picture",
+    "attrs": {
+      "class": "DucV3 _0-uxM Zd5Aq"
+    },
+    "path_to_data": ["img"],
+    "data_source": "src"
+  },
+  "url_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "M3v0L DUxBc sMgZR _5R9j6 wEofQ qzGRQ IM66u J5vFR hxTp1"
+    },
+    "path_to_data": ["a"],
+    "data_source": "href",
+    "is_full": false,
+    "add_to_url": "https://prom.ua"
+  },
+  "next_page": {
+    "attribute_name": "a",
+    "attrs": {
+      "type": "button",
+      "data-qaid": "next_page"
+    },
+    "path_to_data": [],
+    "data_source": "href",
+    "is_full": false
+  },
+  "next_page_url_parameter": "&page=PAGE_COUNTER",
+  "country": "Україна"
+}

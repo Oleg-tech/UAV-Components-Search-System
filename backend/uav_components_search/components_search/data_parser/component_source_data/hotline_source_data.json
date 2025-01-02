@@ -1,0 +1,85 @@
+{
+  "shop_name": "Hotline",
+  "shop_file_name": "hotline",
+  "shop_logo": "https://hotline.ua/frontend/_nuxt/img/mobile-logo.4f31ef3.svg",
+  "search_url": "https://hotline.ua/ua/sr/?q=REPLACE_WITH_QUERY",
+  "query_separator": " ",
+  "base_url": "https://hotline.ua",
+  "headers": {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "accept-language": "uk",
+    "cache-control": "max-age=0",
+    "cookie": "hl_guest_id=416ca0ce3a11a62be0523d2e67392131; GN_USER_ID_KEY=bf5e25b6-7db5-48d0-8ab6-3961b91a34a8; GN_SESSION_ID_KEY=6937de72-9541-424c-bf8b-94ac19ed3f35; language=uk; city_id=187; region=1; region_mode=1; hluniqueid=95c55b4e8a299896b4d99e4bf92cf9e5; hl_sid=9054bef12a4f8a680fc14104bc80600c; _gcl_au=1.1.1490609447.1712822947; _gid=GA1.2.1570843635.1712822948; __rtbh.uid=%7B%22eventType%22%3A%22uid%22%2C%22id%22%3A%22undefined%22%7D; __rtbh.lid=%7B%22eventType%22%3A%22lid%22%2C%22id%22%3A%22985dpC9woIYzdlXZp8N5%22%7D; remade_cps=0; PHPSESSID=0cefe1171d5536c2889a8ff539979129; _gcl_aw=GCL.1712822948.EAIaIQobChMI1t__19q5hQMVvquDBx0AywAJEAAYASAAEgK6OvD_BwE; _fbp=fb.1.1712822947970.386848163; store.test; store.test=; _gac_UA-2141710-13=1.1712822952.EAIaIQobChMI1t__19q5hQMVvquDBx0AywAJEAAYASAAEgK6OvD_BwE; hluniqueid_ctl=3b2dc19ad69f98c6c707e49d58d768f5; _ga=GA1.1.824295156.1712822948; gravitecOptInBlocked=true; _ga_CYEKXW8GPN=GS1.1.1712822947.1.1.1712822963.44.0.0",
+    "referer": "https://www.google.com/",
+    "sec-ch-ua": "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "Windows",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+  },
+  "gallery_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "search-list__body"
+    }
+  },
+  "product_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "list-item flex"
+    }
+  },
+  "name_obj": {
+    "attribute_name": "a",
+    "attrs": {
+      "class": "item-title text-md link link--black"
+    },
+    "path_to_data": [],
+    "data_source": "text"
+  },
+  "price_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "text-md text-orange text-lh--1"
+    },
+    "path_to_data": [],
+    "data_source": "text",
+    "has_price_interval": true,
+    "extract_pattern": "(\\d+\\s*\\d+)\\s*грн",
+    "separator": "–",
+    "currency": "UAH"
+  },
+  "picture_obj": {
+    "attribute_name": "img",
+    "attrs": {
+      "class": "rounded-border--sm"
+    },
+    "path_to_data": [],
+    "data_source": "src",
+    "add_to_url": "https://hotline.ua"
+  },
+  "url_obj": {
+    "attribute_name": "a",
+    "attrs": {
+      "class": "list-item__img"
+    },
+    "path_to_data": [],
+    "data_source": "href",
+    "add_to_url": "https://hotline.ua"
+  },
+
+  "next_page": {
+    "attribute_name": "a",
+    "attrs": {
+      "id": "pager_next"
+    },
+    "path_to_data": [],
+    "data_source": "href",
+    "is_full": false
+  },
+  "country": "Україна"
+}

@@ -1,0 +1,13 @@
+.rotate {
+    animation: rotateAnimation 1s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,82 @@
+{
+  "shop_name": "DronoStore",
+  "shop_file_name": "dronostore",
+  "shop_logo": "https://rc-hobby.com.ua/upload/rc-hobby-2019.png",
+  "search_url": "https://drono.store/search?controller=search&s=REPLACE_WITH_QUERY",
+  "base_url": "https://drono.store",
+  "query_separator": "+",
+  "headers": {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "accept-language": "uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "max-age=0",
+    "priority": "u=0, i",
+    "sec-ch-ua": "'Chromium';v='124', 'Google Chrome';v='124', 'Not-A.Brand';v='99'",
+    "sec-ch-ua-mobile": "?1",
+    "sec-ch-ua-platform": "Android",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+  },
+  "gallery_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "products product_list list"
+    }
+  },
+  "product_obj": {
+    "attribute_name": "article",
+    "attrs": {
+      "class": "ajax_block_product js-product-miniature"
+    }
+  },
+  "name_obj": {
+    "attribute_name": "h3",
+    "attrs": {
+      "class": "s_title_block flex_child nohidden"
+    },
+    "path_to_data": ["a"],
+    "data_source": "text"
+  },
+  "price_obj": {
+    "attribute_name": "span",
+    "attrs": {
+      "class": "price"
+    },
+    "path_to_data": [],
+    "data_source": "text",
+    "has_price_interval": false,
+    "extract_pattern": "([\\d\\s.]+)",
+    "separator": null,
+    "currency": "UAH"
+  },
+  "picture_obj": {
+    "attribute_name": "img",
+    "attrs": {
+      "class": "front-image"
+    },
+    "path_to_data": [],
+    "data_source": "data-src"
+  },
+  "url_obj": {
+    "attribute_name": "h3",
+    "attrs": {
+      "class": "s_title_block flex_child nohidden"
+    },
+    "path_to_data": ["a"],
+    "data_source": "href"
+  },
+  "pagination_type": "next_page",
+  "next_page": {
+    "attribute_name": "a",
+    "attrs": {
+      "rel": "next"
+    },
+    "path_to_data": [],
+    "data_source": "href",
+    "add_to_url": ""
+  },
+  "country": "Україна"
+}

@@ -1,0 +1,79 @@
+{
+  "shop_name": "RunCam",
+  "shop_file_name": "runcam",
+  "shop_logo": "data:image/png;base64,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",
+  "search_url": "https://shop.runcam.com/search.php?search_query=REPLACE_WITH_QUERY",
+  "base_url": "https://shop.runcam.com",
+  "query_separator": "+",
+  "headers": {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "accept-language": "uk",
+    "cache-control": "max-age=0",
+    "sec-ch-ua": "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "Windows",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "none",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+  },
+  "gallery_obj": {
+    "attribute_name": "ul",
+    "attrs": {
+      "class": "ProductList clear"
+    }
+  },
+  "product_obj": {
+    "attribute_name": "li",
+    "attrs": {}
+  },
+  "name_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "ProductDetails"
+    },
+    "path_to_data": ["a"],
+    "data_source": "text"
+  },
+  "price_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "ProductPriceRating"
+    },
+    "path_to_data": ["em"],
+    "data_source": "text",
+    "has_price_interval": false,
+    "extract_pattern": "US\\$(\\d+\\.\\d{2})",
+    "separator": " ",
+    "currency": "USD"
+  },
+  "picture_obj": {
+    "attribute_name": "div",
+    "attrs": {
+      "class": "ProductImage"
+    },
+    "path_to_data": ["a", "img"],
+    "data_source": "src"
+  },
+  "url_obj": {
+    "attribute_name": "a",
+    "attrs": {
+      "class": "TrackLink"
+    },
+    "path_to_data": [],
+    "data_source": "href"
+  },
+  "pagination_type": "next_page",
+  "next_page": {
+    "attribute_name": "a",
+    "attrs": {
+      "class": "nav-next"
+    },
+    "path_to_data": [],
+    "data_source": "href",
+    "add_to_url": "https://shop.runcam.com/"
+  },
+  "country": "Китай"
+}
